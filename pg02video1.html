@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem e Vídeo Centralizados</title>
+    <style>
+        body {
+            background-color: rgba(42, 43, 46, 0.39);
+            margin: 0; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        iframe {
+            width: 560px; 
+            height: 315px; 
+        }
+
+        a {
+            margin-top: 20px; 
+        }
+
+        .video-container img {
+            width: 50px; 
+            height: 50px; 
+        }
+    </style>
+</head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LeOVXQDsAIY?si=oGxiR1Chpgra1V-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p><a href="https://gustavoguanabara.guithub.io"><b>veja curso completo aqui</b></a></p>
+    <a href="index.html" target="prev" class="video-container">
+        <img src="imagens/voltar.png" alt=""> 
+    </a>
+</body>
+</html>
